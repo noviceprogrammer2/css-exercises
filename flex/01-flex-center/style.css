@@ -3,6 +3,10 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display:flex; /*enables flex for container */
+  justify-content: center; /* Horizontally centers content inside of container*/
+  align-items: center; /*vertically centers content inside of container*/
+  
 }
 
 .box {
@@ -12,4 +16,5 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
+  
 }

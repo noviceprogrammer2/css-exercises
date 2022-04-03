@@ -1,7 +1,15 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
-}
+  display: flex; /*puts all items in horizontal alignment */
+  padding: 8px; /* all items receive padding in the inside */
+  align-items:center; /*aligns items to the vertical center */
+  justify-content: space-between; /* items are evenly distributed in the line; first item is on the start line, last item on the end line*/
+  
+  /* left list, logo, and right list are separate item groups that is why they are spaced the way they are, if the left list elements were divided individaully everything would be evenly spaced */ 
+  
+ 
+  }
 
 .logo {
   font-size: 48px;
@@ -9,11 +17,18 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+
 }
 
+
 ul {
-  /* this removes the dots on the list items*/
+  
   list-style-type: none;
+  display: flex;
+  margin: 0; /* ul elements have default margin and padding, we want to remove these so setting margin and padding to 0 */
+  padding: 0;
+  gap: 8px; /* sets gaps between items */ 
+  
 }
 
 a {
