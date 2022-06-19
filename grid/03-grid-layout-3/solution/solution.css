@@ -46,6 +46,9 @@
 }
 
 .photo  {
+  display: grid;
+  align-content: center;
+  justify-content: center;
 }
 
 .sidebar .side-content {
